@@ -1,0 +1,63 @@
+# My top twenty movies, in rank order (#1 first).
+# One is shown at random on each page load; the full list expands below it.
+# `link` is optional (e.g., a Rotten Tomatoes page).
+- title: The Shawshank Redemption
+  year: 1994
+  link: https://www.rottentomatoes.com/m/shawshank_redemption
+- title: Interstellar
+  year: 2014
+  link: https://www.rottentomatoes.com/m/interstellar_2014
+- title: Whiplash
+  year: 2014
+  link: https://www.rottentomatoes.com/m/whiplash_2014
+- title: "Spider-Man: Across the Spider-Verse"
+  year: 2023
+  link: https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse
+- title: The Dark Knight
+  year: 2008
+  link: https://www.rottentomatoes.com/m/the_dark_knight
+- title: Ford v Ferrari
+  year: 2019
+  link: https://www.rottentomatoes.com/m/ford_v_ferrari
+- title: Parasite
+  year: 2019
+  link: https://www.rottentomatoes.com/m/parasite_2019
+- title: The Truman Show
+  year: 1998
+  link: https://www.rottentomatoes.com/m/truman_show
+- title: Good Will Hunting
+  year: 1997
+  link: https://www.rottentomatoes.com/m/good_will_hunting
+- title: Fight Club
+  year: 1999
+  link: https://www.rottentomatoes.com/m/fight_club
+- title: Inglourious Basterds
+  year: 2009
+  link: https://www.rottentomatoes.com/m/inglourious_basterds
+- title: Django Unchained
+  year: 2012
+  link: https://www.rottentomatoes.com/m/django_unchained_2012
+- title: Nope
+  year: 2022
+  link: https://www.rottentomatoes.com/m/nope
+- title: Spirited Away
+  year: 2001
+  link: https://www.rottentomatoes.com/m/spirited_away
+- title: Boyz n the Hood
+  year: 1991
+  link: https://www.rottentomatoes.com/m/boyz_n_the_hood
+- title: Batman Begins
+  year: 2005
+  link: https://www.rottentomatoes.com/m/batman_begins
+- title: Goodfellas
+  year: 1990
+  link: https://www.rottentomatoes.com/m/goodfellas
+- title: The Departed
+  year: 2006
+  link: https://www.rottentomatoes.com/m/departed
+- title: Moneyball
+  year: 2011
+  link: https://www.rottentomatoes.com/m/moneyball
+- title: Reservoir Dogs
+  year: 1992
+  link: https://www.rottentomatoes.com/m/reservoir_dogs

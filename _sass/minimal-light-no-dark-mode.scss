@@ -169,11 +169,10 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
+        width: 160px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
         padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
       }
 
     #header .image.avatar {
@@ -516,3 +515,27 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+// Enlarge the whole page on wide screens
+@media screen and (min-width: 1240px) {
+  html { zoom: 1.25; }
+}
+
+@media screen and (min-width: 1500px) {
+  html { zoom: 1.5; }
+}
+/* Callout box (e.g., Ph.D. applications note) */
+.callout {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  background: rgba(56, 111, 219, 0.08);
+}
+.callout p { margin: 0; }
+
+/* Other Interests: top movies list */
+.movie-row { display: flex; justify-content: space-between; align-items: center; gap: 1em; }
+.movie-list { margin: 0.75rem 0 0; padding-left: 0; columns: 2; column-gap: 2em; font-size: 0.95em; }
+.movie-list li { break-inside: avoid; list-style-position: inside; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 480px) { .movie-list { columns: 1; } }
+.movie-next { font-size: 0.9em; white-space: nowrap; }
