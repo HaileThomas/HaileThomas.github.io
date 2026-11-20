@@ -1,6 +1,6 @@
 # Site location
-url: "https://cs.stanford.edu"
-baseurl: "/~tghaile"
+url: "https://hailethomas.github.io"
+baseurl: ""
 
 # Basic Information
 title: Thomas Haile
@@ -15,7 +15,7 @@ university: Stanford University
 # Search Engine Optimization (SEO)
 keywords: Thomas Haile, Stanford, computer science
 description: Thomas Haile is a coterminal B.S./M.S. student in Computer Science at Stanford University.
-canonical: https://cs.stanford.edu/~tghaile/
+canonical: https://hailethomas.github.io/
 
 # Links
 # google_scholar: https://scholar.google.com/
