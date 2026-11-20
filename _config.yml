@@ -8,6 +8,10 @@ position: B.S./M.S. Student
 affiliation: Stanford Computer Science
 email: tghaile@stanford.edu
 
+# Structured data (schema.org Person JSON-LD on the homepage)
+job_title: Coterminal B.S./M.S. Student in Computer Science
+university: Stanford University
+
 # Search Engine Optimization (SEO)
 keywords: Thomas Haile, Stanford, computer science
 description: Thomas Haile is a coterminal B.S./M.S. student in Computer Science at Stanford University.

@@ -32,6 +32,31 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ site.title | jsonify }},
+      "url": {{ "/" | absolute_url | jsonify }},
+      "jobTitle": {{ site.job_title | jsonify }},
+      "email": {{ site.email | prepend: "mailto:" | jsonify }},
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ site.university | jsonify }}
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ site.university | jsonify }}
+      },
+      "sameAs": [
+        {{ site.linkedin | jsonify }},
+        {{ site.github_link | jsonify }}
+      ]
+    }
+    </script>
+    {% endif %}
+
   </head>
   <body>
     <div class="wrapper">
